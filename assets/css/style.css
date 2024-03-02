@@ -46,6 +46,25 @@ h1{
     letter-spacing: 4px;
     list-style-type: none;
 }
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #F2CF9E;
+}
+
+/* Navbar styles with dropdown menu */
+nav {
+    position: absolute;
+    background-color: #7E170A;
+    width: 100%;
+    left: 0;
+    padding: 0 1em;
+    box-shadow: 0 3px 3px #F2CF9E;
+    display: none;
+}
 /* Main Content */
 main {
     background-color: rgb(224, 143, 93);
