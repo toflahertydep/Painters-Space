@@ -1,5 +1,5 @@
 /* Google fonts style */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&display=swap');
 
 /* Asterisk wild card selector to override default styles added by browser */
@@ -24,6 +24,10 @@ header {
     background-color: #7E170A;
 }
 
+h1{
+    font-family: 'Pacifico' , sans-serif;
+    
+}
 /* Main Content */
 main {
     background-color: rgb(224, 143, 93);
