@@ -27,6 +27,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 3px 3px #674222;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -64,8 +67,23 @@ nav {
     padding: 0 1em;
     box-shadow: 0 3px 3px #F2CF9E;
     display: none;
+    top: 100%;
 }
-/* Main Content */
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle{
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 5px;
+}
+
+    /* Main Content */
 main {
     background-color: rgb(224, 143, 93);
     /* Make main element take up any surplus space to puch footer down */
